@@ -2,7 +2,7 @@
 
 class ModeloPlantilla{
 
-  public function mdlLlamadoPlantilla($enlaceMdl){
+  public static function mdlLlamadoPlantilla($enlaceMdl){
     if ($enlaceMdl == "inicio"  ||
         $enlaceMdl == "usuarios"  ||
         $enlaceMdl == "servicios" ||
