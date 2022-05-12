@@ -45,7 +45,7 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="inicio" class="nav-link active">
+              <a href="index.php?action=inicio" class="nav-link active">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Dashboard Principal</p>
               </a>
@@ -53,10 +53,28 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a href="usuarios" class="nav-link">
+          <a href="index.php?action=usuarios" class="nav-link">
             <i class="nav-icon fas  fa-users"></i>
             <p>
               Usuarios
+              <!-- <span class="right badge badge-danger">New</span> -->
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="index.php?action=servicios" class="nav-link">
+            <i class="nav-icon fas  fa-users"></i>
+            <p>
+              Servicio
+              <!-- <span class="right badge badge-danger">New</span> -->
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="index.php?action=productos" class="nav-link">
+            <i class="nav-icon fas  fa-users"></i>
+            <p>
+              Productos
               <!-- <span class="right badge badge-danger">New</span> -->
             </p>
           </a>
