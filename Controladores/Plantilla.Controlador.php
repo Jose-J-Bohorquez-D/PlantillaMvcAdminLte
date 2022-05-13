@@ -16,9 +16,7 @@ class ControladorPlantilla{
       $respuesta=ModeloPlantilla::mdlLlamadoPlantilla($enlaceCtr);      
       include $respuesta;
     }else{
-      $enlaceCtr = "inicio";
-      $respuesta=ModeloPlantilla::mdlLlamadoPlantilla($enlaceCtr); 
-      include $respuesta;
+      include "Vistas/Paginas/inicio.php";
     }      
   }
 
